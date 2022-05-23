@@ -2,23 +2,24 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 
 const Header = () => {
-  const [activetab, setActivetab] = useState("Categories") 
+  const [activetab, setActivetab] = useState("Home") 
   return (
     <View style={{flexDirection:'row', alignSelf:'center', marginTop: 40}}>
-      <HeaderButton 
-      text="Categories"
-      colorbtn='black'
-      textcolor='white'
-      activetab={activetab}
-      setActivetab={setActivetab}
-      />
-      <HeaderButton 
+    <HeaderButton 
       text="Home"
       colorbtn='white'
       textcolor='black'
       activetab={activetab}
       setActivetab={setActivetab}
       />
+      <HeaderButton 
+      text="Search"
+      colorbtn='black'
+      textcolor='white'
+      activetab={activetab}
+      setActivetab={setActivetab}
+      />
+      
     </View>
   )
 }
