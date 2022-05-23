@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const Header = () => {
   const [activetab, setActivetab] = useState("Home") 
   return (
-    <View style={{flexDirection:'row', alignSelf:'center', marginTop: 40}}>
+    <View style={{flexDirection:'row', width: '100%' ,justifyContent: 'center', marginTop: 35, backgroundColor: 'white'}}>
     <HeaderButton 
       text="Home"
       colorbtn='white'

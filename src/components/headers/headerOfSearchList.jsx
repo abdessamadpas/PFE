@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginVertical: 10,
         alignItems: 'center',
+        justifyContent: 'center',
+      //  marginTop: 30,
+         padding: 15,
+        
     },
     text: {
         padding:10,
